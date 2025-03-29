@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    background-color: #476ec1;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    height: 80px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.navbar a:hover {
+    background: none;
+    border-bottom: 2px solid #27375b;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.logo img {
+    width: 70px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+.image img {
+    height: 550px;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.image,
+.content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+}
+
+.calc {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: 40px solid #5681e1;
+}
+
+label,
+input,
+select,
+button {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 8px;
+}
+
+button {
+    background: #5681e1;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgb(48, 48, 127);
+}
+
+p {
+    font-weight: bold;
+}
+
+#ageFactor {
+    border-top: 5px solid black;
+    background-color: #476ec1;
+    color: white;
+    height: 600px;
+    border-bottom: 5px solid black;
+}
+
+#ageFactor .heading {
+    text-align: center;
+    color: black;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 120%;
+    margin-top: 20px;
+    padding-top: 8px;
+    text-decoration: underline black;
+}
+
+#ageFactor .agepara {
+    margin-top: 5px;
+    align-items: center;
+    justify-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 15px;
+}
+
+#pulseRate {
+    border-top: 5px solid black;
+    margin-top: 50px;
+    background-color: #476ec1;
+    color: white;
+    height: 625px;
+    padding-bottom: 20px;
+}
+
+#pulseRate .heading {
+    text-align: center;
+    color: black;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 120%;
+    margin-top: 20px;
+    padding-top: 8px;
+}
+
+#pulseRate .agepara {
+    align-items: center;
+    justify-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 7px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#pulseRate img {
+    justify-items: center;
+    align-items: center;
+}
+
+#bloodPressure {
+    border-top: 5px solid black;
+    background-color: #476ec1;
+    color: white;
+    height: 600px;
+}
+
+#bloodPressure .heading {
+    text-align: center;
+    color: black;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 120%;
+    margin-top: 20px;
+    padding-top: 8px;
+    text-decoration: underline black;
+}
+
+#bloodPressure .agepara {
+    margin-top: 5px;
+    align-items: center;
+    justify-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 15px;
+}
+
+.foot {
+    background-color: rgb(34, 10, 130);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#listname {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ab {
+    padding-top: 70px;
+}
